@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+  function countYears() {
+  var x = document.getElementById('age').value;
+  var y = x*7;
+  alert("Your age in dog years is: " + y);
+  console.log("Your age in dog years is: " + y);
+  }
+</script>
+    <body>
+      <script>
+      function repeatingText() {
+        for(var x = 0;x < 10;x++) {
+          console.log("line 'o text<br>");
+        }
+      }
+      repeatingText();
+    </script>
+
+        <h1>Count your age in Dog Years</h1>
+        <p>Wow this is amazing dude!</p>
+
+
+        <form id="frm1">
+          Age: <input type="text" name="age" id="age"><br>
+        </form>
+
+        <button onclick="countYears()">Calculate</button>
+        <br>
+        <script>
+          var i = 5;
+          var j = 10;
+          var k = 25;
+          var l = "Joe";
+
+          if (i < j) {
+            console.log(i);
+         }
+          else if (j > k) {
+            console.log(k);
+          }
+          else {
+           console.log(j);
+          }
+          var arr = [3, 5, 7];
+            for (var i = 0; i < 3;i++) {
+            console.log(arr[i]);
+            document.write(arr[i] + "<br>");
+            }
+        </script>
+    </body>
+</html>

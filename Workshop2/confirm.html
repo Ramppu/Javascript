@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+</head>
+<body>
+  <script>
+    var smileW = document.createElement("img");
+    var fbm = document.createElement("img");
+    fbm.src="https://i.kym-cdn.com/entries/icons/mobile/000/002/830/sad_frog.jpg";
+    smileW.src="https://static-cdn.jtvnw.net/jtv_user_pictures/c37f21b1-5b33-4750-9cbc-dd3ebfdd7739-profile_image-300x300.png";
+    var r = confirm("Are you a student or nah?");
+    if (r == true) {
+      document.write("Welcome, Sudent!");
+      document.body.appendChild(smileW);
+    } else {
+      document.write("Sorry, This page is for students only.");
+      document.body.appendChild(fbm);
+    }
+  </script>
+
+
+</body>
+
+</html>

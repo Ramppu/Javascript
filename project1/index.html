@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript/listPrint.js"></script>
+</head>
+<body>
+  <script src="javascript/test.js"></script>
+    <div class="row">
+      <div class="col"
+        <form id="toDo">
+            <label for = "task1">Task 1</label>
+              <input type="text" placeholder="Task One" name="t1" id="t1">
+
+            <label for = "task2">Task 2</label>
+             <input type="text" placeholder="Task Two" name="t2" id="t2">
+
+           <label for = "task3">Task3</label>
+            <input type="text" placeholder="Task Three" name="t3" id="t3">
+        </form>
+        <button onclick=listPrint()>Update Tasks</button>
+      </div>
+        <div class="col">
+          <p id="task1"></p>
+          <p id ="task2"></p>
+          <p id ="task3"></p>
+      </div>
+    </div>
+</body>
+</html>

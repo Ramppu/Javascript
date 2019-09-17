@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+    <!-- script tag is where Javascript goes to -->
+    <script>
+        for(var i = 0; i < 5; i++) {
+            console.log("This round is " + i);
+        }
+        document.write("<h1>Hoi Maailma</h1>");
+        alert("This is a test");
+        console.log("All of the required tasks were made :)");
+
+        var favBand="Tool";
+        var favSong="Culling voices";
+        alert("My favourite band atm is " + favBand + " and favourite song is " + favSong);
+        document.write("<h1>" + favBand + "</h1>");
+        console.log("Getting Variables into html documents; example above");
+
+        x = 16;
+        var order = 'Water';
+        var m = "He is over 50 years old";
+        var n = "Middle aged MaN, who ordered some";
+        var b = "You're underaged my dude..";
+
+        if (x > 50) {
+          document.write(m + "<br>");
+        }
+        else if (x <= 50 && x > 30) {
+          document.write(n + " " + order + "<br>");
+        }
+        else {
+          document.write(b + "<br>");
+        }
+        console.log(m + "\n" + n + "\n" + b);
+
+        var arr = []
+          for(var i=0;i<5;i++) {
+            arr.push(Math.floor(Math.random() * 100 ));
+            document.write(arr[i] + "<br>");
+          }
+          console.log(arr);
+
+
+          // Returns T if age is over 18, otherwise S
+          function areYouOldEnough(x) {
+            var S = "You're not old enough";
+            var T = "You're old enough";
+            if (x < 18) {
+              return S;
+            }
+            else {
+              return T;
+            }
+          }
+          alert(areYouOldEnough(40));
+          console.log(areYouOldEnough(5));
+          document.write("<h1>" + areYouOldEnough(4) + "</h1>" + "<br>");
+          document.write(areYouOldEnough(50) + "<br>");
+
+          // CREATING OBJECTS
+          var al = {
+            name:"Fear Inoculum",
+            band:"TOOL",
+            releaseYear:"2019"
+          };
+          //--------------------------------
+
+          // Creating object, and adding the missing piece of info
+          let alb = {name: 'Wasteland', band: 'Riverside'};
+          alb.releaseYear = '2018';
+          //----------------------------------
+
+          // CREATING OBJECT WITH CONSTRUCTOR
+          function Album(name, band, releaseYear) {
+            this.name = name;
+            this.band = band;
+            this.releaseYear = releaseYear;
+          }
+          let Album1 =new Album('10,000 Days', 'TOOL', '2006');
+          let Album2 =new Album('Lateralus', 'TOOL', '2001');
+          let Album3 =new Album('Vector', 'Haken', '2018');
+          let Album4 =new Album('Sonder', 'Tesseract', '2018');
+          //---------------------------------------------
+
+          console.log(al.band);
+          console.log(alb);
+          console.log(Album3.band);
+
+          //Anonymous method
+          var printInfo = function() {
+            console.log(al);
+          }
+          printInfo();
+
+          var ar = [Album1, Album2, Album3, Album4];
+            for(var i=0;i<ar.length;i++) {
+              document.write(ar[i].name + " " + ar[i].band + "<br>");
+            }
+            console.log(ar);
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Welcome to example page</h1>
+    <p> Lorem ipsum dolorem...   </p>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script>
+
+  var images = [
+    "https://img.fireden.net/v/image/1524/39/1524390842851.png", // images[0];
+    "https://ih0.redbubble.net/image.820801782.7851/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    "https://i.pinimg.com/236x/98/13/5d/98135d869510d000544fbe4814609e21--memes.jpg",
+    "https://i.ytimg.com/vi/REF4AsyPr7k/maxresdefault.jpg",
+    "https://cdn.frankerfacez.com/emoticon/315663/4",
+    "https://ih0.redbubble.net/image.631565361.0460/flat,1000x1000,075,f.jpg",
+    "https://i.kym-cdn.com/photos/images/original/001/248/322/e27.png",
+    "https://i.redd.it/qqt2f0z86my21.jpg",
+    "https://i.redd.it/1htemhh633r21.jpg"
+  ];
+
+    function image() {
+      var min = 0;
+      var max = 8;
+      var number = Math.floor(Math.random() * (max - min + 1) + min);
+      document.canvas.src = images[number];
+      console.log(number);
+    }
+</script>
+<body>
+
+  <button onclick="image()">Generate an emote</button>
+    <img src="blank.jpg" name="canvas"</img>
+
+</body>

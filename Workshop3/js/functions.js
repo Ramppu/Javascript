@@ -46,3 +46,28 @@ function arrayTable() {
   }
   document.write("</table>");
 }
+
+//MOUSE OVER
+function mouseOver() {
+  console.log("Menit päältäni >:(");
+}
+function mouseOut() {
+  window.alert("bye chode.");
+}
+
+//Onfocus,blur
+function onFocus() {
+  var x = document.getElementById('heh').value = "Fill out the information";
+  document.getElementById('heh').style.background = "blue";
+}
+
+function onBlur() {
+  var x = document.getElementById('heh').value = "";
+  document.getElementById('heh').style.background = "white";
+}
+
+//Keydown event
+var x = 0;
+function keyDown() {
+  document.getElementById("count").innerHTML = x++;
+}

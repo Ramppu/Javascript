@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="style/style.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script type="text/javascript" src="javascript/listPrint.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
 </head>
 <body>
@@ -15,5 +14,14 @@
 
   <table id="tbl"></table>
   <table id="tbl2"></table>
+
+    <p onmouseover="mouseOver()" onmouseout="mouseOut()">OnMouseOver</p>
+<form>
+  Bruv type there:<br>
+  <input type="text" name="lastname" onfocus="onFocus()" onblur="onBlur()" onkeydown="keyDown()" id="heh">
+  <br>
+  <input type="submit" value="Submit"><p id="count"></p>
+</form>
+
 </body>
 </html>

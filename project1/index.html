@@ -7,10 +7,9 @@
 <script type="text/javascript" src="javascript/functions.js"></script>
 </head>
 <body>
-  <script src="javascript/test.js"></script>
     <div class="row">
       <div class="col"
-        <form id="toDo">
+        <form id="toDo" onsubmit="validate()">
             <label for = "task1">Task 1</label>
               <input type="text" placeholder="Task One" name="t1" id="t1">
 
@@ -19,13 +18,25 @@
 
            <label for = "task3">Task3</label>
             <input type="text" placeholder="Task Three" name="t3" id="t3">
+
+           <label for = "Submit"></label>
+            <input type="submit" value="Update Tasks" onclick="listPrint()">
         </form>
-        <button onclick=listPrint()>Update Tasks</button>
       </div>
         <div class="col">
           <h2>We trying out here</h2>
           <ul id="list"></ul>
       </div>
     </div>
+
+    <!-- The Modal -->
+<div id="mod" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Please update the tasks!</p>
+  </div>
+</div>
+
 </body>
 </html>

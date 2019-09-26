@@ -36,3 +36,20 @@ button:hover, button:active {
   background-color: #B04C79;  /* ec2F4B */
   transition: 1s;
 }
+
+.modal-content {
+  background: linear-gradient(to right, #009FFF, #ec2F4B);
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px;
+  border: 2px solid white;
+  width: 80%;
+  cursor: default;
+}
+
+.close {
+  cursor: pointer;
+}
+
+li {
+}

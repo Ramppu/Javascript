@@ -7,9 +7,10 @@
 <script type="text/javascript" src="javascript/functions.js"></script>
 </head>
 <body>
+  <h1>Simple TO-DO List</h1>
     <div class="row">
-      <div class="col"
-        <form id="toDo" onsubmit="validate()">
+      <div class="col">
+        <form id="toDo" onsubmit="return false">
             <label for = "task1">Task 1</label>
               <input type="text" placeholder="Task One" name="t1" id="t1">
 
@@ -23,10 +24,14 @@
             <input type="submit" value="Update Tasks" onclick="listPrint()">
         </form>
       </div>
-        <div class="col">
-          <h2>We trying out here</h2>
+        <div class="col" id="lst">
           <ul id="list"></ul>
       </div>
+    </div>
+
+    <div class="row" id="removeBtn">
+      <button id="dlt" onclick="deleteChild()">Remove the oldest task</button>
+      <script>hideBtn()</script>
     </div>
 
     <!-- The Modal -->
@@ -37,6 +42,5 @@
     <p>Please update the tasks!</p>
   </div>
 </div>
-
 </body>
 </html>

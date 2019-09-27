@@ -104,4 +104,19 @@ function listPrint() {
     listElement.appendChild(listContent);
     document.getElementById("list").appendChild(listElement);
   }
+  hideBtn();
+}
+
+function deleteChild() {
+  var remove = document.getElementById('list');
+  remove.removeChild(remove.firstChild);
+  hideBtn();
+}
+function hideBtn() {
+   if($('li').length <= 0){
+     document.getElementById('dlt').style.display = 'none';
+   }
+   else {
+     document.getElementById('dlt').style.display = 'block';
+   }
 }

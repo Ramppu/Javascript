@@ -7,6 +7,10 @@
 <script type="text/javascript" src="javascript/functions.js"></script>
 </head>
 <body>
+  <div class="topnav">
+  <a class="active" href="index.html">To-Do List</a>
+  <a href="#sportsdiary">Sports Diary</a>
+</div>
   <h1>Simple TO-DO List</h1>
     <div class="row">
       <div class="col">
@@ -30,16 +34,15 @@
     </div>
 
     <div class="row" id="removeBtn">
-      <button id="dlt" onclick="deleteChild()">Remove the oldest task</button>
+      <button id="dlt" onclick="deleteChild()"><p id ="dltT">Remove the oldest task</p></button>
       <script>hideBtn()</script>
     </div>
 
-    <!-- The Modal -->
+    <!-- this is only shown as an error -->
 <div id="mod" class="modal">
-  <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Please update the tasks!</p>
+    <p>Please Insert data into form fields!</p>
   </div>
 </div>
 </body>

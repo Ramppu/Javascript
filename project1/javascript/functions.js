@@ -1,122 +1,62 @@
 function listPrint() {
 
   var x = document.getElementById('t1').value;
-  var y = document.getElementById('t2').value;
+  var y = document.getElementById('t2').value;// X, Z and Y VALUES ARE USED FOR THE MODAL GENERATION
   var z = document.getElementById('t3').value;
+  var tasks = document.getElementsByTagName('input'); // used for the list print
 
-//IF THE FORM IS SUBMITTED EMPTY
-  if (z == '' && x == '' && y == '') {
-    // Get the modal
-    var modal = document.getElementById("mod");
-    modal.style.display = "block";
-    var span = document.getElementsByClassName("close")[0];
+  if(document.getElementsByTagName('li').length < 6) {
+      //IF THE FORM IS SUBMITTED EMPTY
+        if (z == '' && x == '' && y == '') {
+          var modal = document.getElementById("mod");
+          modal.style.display = "block";
+          var span = document.getElementsByClassName("close")[0];
+          //Modal generation
 
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
+          span.onclick = function() {
+            modal.style.display = "none"; //Clicking span elements hides the modal
+          }
 
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
+          window.onclick = function(event) {
+            if (event.target == modal) { // Clicking anywhere on the window hides the modal too
+              modal.style.display = "none";
+            }
+          }
+        }
+        else {
+          for(var i = 0; i < tasks.length-1;i++) { //tasks.length-1 because 'submit' considers itself as input, and we dont want to print that to the site
+            var listElement = document.createElement("li"); //Creating an 'li' element
+            var listContent = document.createTextNode(tasks[i].value); //Creating a text node, that can be given to the 'li' element
+              if(tasks[i].value == ''){
+                console.log('Empty values are not printed'); //if 'tasks[i].value' is empty, it is not printed to the user
+              }
+              else {
+                listElement.appendChild(listContent);
+                document.getElementById("list").appendChild(listElement); //Else, it is printed on the site
+              }
+          }
+        }
+        //document.getElementById('t1').value = '';
+        //document.getElementById('t2').value = ''; REMOVE COMMENT TAG IF WE WANT THE FORM TO EMPTY ITSELF AFTER SUBMISSION
+        //document.getElementById('t3').value = '';
+        hideBtn(); //Initializes the button to the site
   }
-//-------------------------------------------------//
-
-//IF ONLY ONE ELEMENT IS ADDED-----------------------//
-
-  else if( z == '' && y == '') {
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(x);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-  }
-
-  else if( z == '' && x == '') {
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(y);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-  }
-
-  else if( x == '' && y == '') {
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(z);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-  }
-
-//--------------------------------------------------------------//
-
-//IF TWO ELEMNTS ARE ADDED-------------------------------------//
-
-  else if( x == '') {
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(y);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(z);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-  }
-
-  else if( z == '') {
-  var listElement = document.createElement("li");
-  var listContent = document.createTextNode(x);
-  listElement.appendChild(listContent);
-  document.getElementById("list").appendChild(listElement);
-
-  var listElement = document.createElement("li");
-  var listContent = document.createTextNode(y);
-  listElement.appendChild(listContent);
-  document.getElementById("list").appendChild(listElement);
-  }
-
-  else if( y == '') {
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(x);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(z);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-  }
-  //--------------------------------------------------------//
-
-  //IF ALL 3 ARE ADDED
   else {
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(x);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(y);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
-
-    var listElement = document.createElement("li");
-    var listContent = document.createTextNode(z);
-    listElement.appendChild(listContent);
-    document.getElementById("list").appendChild(listElement);
+    alert("The list can only hold 6 items in it");
   }
-  hideBtn();
 }
 
 function deleteChild() {
   var remove = document.getElementById('list');
   remove.removeChild(remove.firstChild);
-  hideBtn();
+  hideBtn(); //After every deletion, the button's display condition is checked
 }
+
 function hideBtn() {
-   if($('li').length <= 0){
-     document.getElementById('dlt').style.display = 'none';
-   }
-   else {
-     document.getElementById('dlt').style.display = 'block';
-   }
+  if(document.getElementsByTagName('li').length <= 0){ //If there are no 'li' elements on the site, button is hidden
+    document.getElementById('dlt').style.display = 'none'; // when 'deleteChild()' removes the final element, the button hides itself
+  }
+  else {
+     document.getElementById('dlt').style.display = 'block'; //As form submission adds 'li' elements to the site, it is always shown after the first submission
+  }
 }

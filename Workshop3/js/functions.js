@@ -52,7 +52,7 @@ function mouseOver() {
   console.log("Menit päältäni >:(");
 }
 function mouseOut() {
-  window.alert("bye chode.");
+  window.alert("haha.");
 }
 
 //Onfocus,blur

@@ -57,6 +57,14 @@ function hideBtn() {
     document.getElementById('dlt').style.display = 'none'; // when 'deleteChild()' removes the final element, the button hides itself
   }
   else {
-     document.getElementById('dlt').style.display = 'block'; //As form submission adds 'li' elements to the site, it is always shown after the first submission
+     document.getElementById('dlt').style.display = 'block'; //As form submission adds 'li' element to the site, it is always shown after the first submission
   }
+}
+
+function show() {
+    document.getElementById('who').style.display = 'block'; //On mouseover, the text is shown
+}
+
+function hide() {
+  document.getElementById('who').style.display = 'none'; //On mouseout, the text is hidden again
 }

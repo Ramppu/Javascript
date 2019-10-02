@@ -5,15 +5,16 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
+.row{
 
-.topnav {
-  overflow: hidden;
-  background: linear-gradient(to right, #dc2424, #4a569d);
-  width: 15%;
-  border-bottom-right-radius: 25px;
-  border-bottom-style: solid;
-  border-bottom-color: white;
 }
+img{
+  margin-left: 40px;
+}
+p{
+  margin-left: 43px;
+}
+
 a {
   float:left;
   margin-left:15px;
@@ -52,8 +53,8 @@ label {
     border-color: #009FFF;
     border-radius: 25px;
     margin-left: 35%;
-    width: 15%;
-    height: 15%;
+    width: auto;
+    height: auto;
     background-color: transparent;
     transition: 1s;
 }
@@ -62,17 +63,13 @@ label {
   transition: 1s;
 }
 
-#dlt.hidden {
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
-}
 
-#dltT {
-  margin-top: 10px;
+
+/*#dltT {
   background: -webkit-linear-gradient(#4b6cb7, #182848);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}*/
 
 .modal-content {
   background: linear-gradient(to right, #009FFF, #ec2F4B);
@@ -90,7 +87,6 @@ label {
 #lst {
   margin-top: 2%;
 }
-#removeBtn {
-  margin-bot: 15%;
-  margin-left: 40%;
+#who {
+  display: none;
 }

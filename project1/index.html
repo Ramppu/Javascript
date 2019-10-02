@@ -7,11 +7,10 @@
 <script type="text/javascript" src="javascript/functions.js"></script>
 </head>
 <body>
-  <div class="topnav">
-  <a class="active" href="index.html">To-Do List</a>
-  <a href="sports.html">Sports Diary</a>
-  </div>
   <h1>Simple TO-DO List</h1>
+  <div class="row">
+    <div class="col"><p>This Site was Developed as a project for school project.<br>It's main purpose is to practise Javascript shit</p></div>
+  </div>
     <div class="row">
       <div class="col">
         <form id="toDo" onsubmit="return false">
@@ -32,10 +31,10 @@
           <ul id="list"></ul>
       </div>
     </div>
-
     <div class="row" id="removeBtn">
-      <button id="dlt" onclick="deleteChild()"><p id ="dltT">Remove the oldest task</p></button>
-      <script>hideBtn()</script>
+    <div class="col"><img src="resources/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>
+    <div class="col"><button id="dlt" onclick="deleteChild()">Remove<br>the oldest task</button></div>
+    <script>hideBtn()</script>
     </div>
 
     <!-- this is only shown as an error -->

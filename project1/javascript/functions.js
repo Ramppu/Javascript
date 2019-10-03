@@ -61,8 +61,8 @@ function hideBtn() {
   }
 }
 
-function show() {
-    document.getElementById('who').style.display = 'block'; //On mouseover, the text is shown
+function show(){
+  document.getElementById('who').style.display = 'inline';
 }
 
 function hide() {

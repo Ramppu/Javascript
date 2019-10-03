@@ -36,9 +36,9 @@ function listPrint() {
               }
           }
         }
-        //document.getElementById('t1').value = '';
-        //document.getElementById('t2').value = ''; REMOVE COMMENT TAG IF WE WANT THE FORM TO EMPTY ITSELF AFTER SUBMISSION
-        //document.getElementById('t3').value = '';
+        document.getElementById('t1').value = '';
+        document.getElementById('t2').value = ''; //REMOVE COMMENT TAG IF WE WANT THE FORM TO EMPTY ITSELF AFTER SUBMISSION
+        document.getElementById('t3').value = '';
         hideBtn(); //Initializes the button to the site
   }
   else {

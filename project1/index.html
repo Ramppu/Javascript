@@ -15,16 +15,16 @@
       <div class="col">
         <form id="toDo" onsubmit="return false" autocomplete="off">
             <label for = "task1">Task 1</label>
-              <input type="text" placeholder="Task One" name="t1" id="t1">
+              <input type="text" placeholder="Task One"id="t1" required>
 
             <label for = "task2">Task 2</label>
-             <input type="text" placeholder="Task Two" name="t2" id="t2">
+             <input type="text" placeholder="Task Two" id="t2" required>
 
            <label for = "task3">Task3</label>
-            <input type="text" placeholder="Task Three" name="t3" id="t3">
+            <input type="text" placeholder="Task Three"id="t3" required>
 
            <label for = "Submit"></label>
-            <input type="submit" value="Update Tasks" onclick="listPrint()">
+            <input id="sbmt" type="submit" value="Update Tasks" onclick="listPrint()">
         </form>
       </div>
         <div class="col" id="lst">

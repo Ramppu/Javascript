@@ -31,12 +31,12 @@
           <ul id="list"></ul>
       </div>
     </div>
-    <div class="row" id="removeBtn">
-    <div class="col"><img id="pic" src="resources/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>
-    <div class="col"><button id="dlt" onclick="deleteChild()">Remove<br>the oldest task</button></div>
-    <script>hideBtn()</script>
+    <div class="row">
+      <div class="col"><img id="pic" src="resources/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>
+      <div class="col" id="info"><p>Items in the list can be removed by clicking on them<br>List Count is capped to 6 items</p></div>
+      <div class="col"></div>
+      <script>hideInfo()</script>
     </div>
-
     <!-- this is only shown as an error -->
 <div id="mod" class="modal">
   <div class="modal-content">

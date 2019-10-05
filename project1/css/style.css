@@ -7,7 +7,7 @@ body {
 }
 
 img{
-  margin-left: 40px;
+  margin-left: 27px;
 }
 p{
   margin-left: 43px;
@@ -41,14 +41,15 @@ input:hover, input:active, input[type="text"]:valid {
   transition: all 2s;
   width: 75%;
   opacity: 1;
+  border: 1px solid green;
 }
 #sbmt {
-  width: 15%;
+  width: 23%;
   opacity: 1;
 }
 
 label {
-  margin-left: 7%;
+  margin-left: 5%;
   display: block;
   text-align: left;
 }
@@ -73,9 +74,12 @@ label {
   display: none;
 }
 li {
+  transition: all 2s;
   cursor: pointer;
+  text-align: center;
 }
 #info{
+  transition: all 2s;
   text-align: center;
   border-top: 1px solid black;
 }

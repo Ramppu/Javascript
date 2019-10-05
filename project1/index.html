@@ -9,7 +9,7 @@
 <body>
   <h1>Simple TO-DO List</h1>
   <div class="row">
-    <div class="col"><p>This Site was Developed as a project for school project.<br>It's main purpose is to practise Javascript shit</p></div>
+    <div class="col"><p>This Site was Developed as a project for school.<br>It's main purpose is to practise Javascript shit</p></div>
   </div>
     <div class="row">
       <div class="col">
@@ -27,9 +27,10 @@
             <input id="sbmt" type="submit" value="Update Tasks" onclick="listPrint()">
         </form>
       </div>
-        <div class="col" id="lst">
+        <div class="col" id="lst" onclick="hideInfo()">
           <ul id="list"></ul>
       </div>
+      <div class="col"></div>
     </div>
     <div class="row">
       <div class="col"><img id="pic" src="resources/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>

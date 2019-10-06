@@ -7,9 +7,9 @@ function listPrint() {
   if(document.getElementsByTagName('li').length < 6) {
       //IF THE FORM IS SUBMITTED EMPTY
         if (z == '' && x == '' && y == '') {
-          var modal = document.getElementById("mod");
+          var modal = document.getElementById('mod');
           modal.style.display = "block";
-          var span = document.getElementsByClassName("close")[0];
+          var span = document.getElementsByClassName('close')[0];
           //Modal generation
 
           span.onclick = function() {
@@ -32,7 +32,7 @@ function listPrint() {
               }
               else {
                 listElement.appendChild(listContent);
-                document.getElementById("list").appendChild(listElement); //Else, it is printed on the site
+                document.getElementById('list').appendChild(listElement); //Else, it is printed on the site
               }
           }
         }
@@ -40,6 +40,7 @@ function listPrint() {
         document.getElementById('t2').value = ''; //Used to empty the form after submission
         document.getElementById('t3').value = '';
         hideInfo(); //Brings out the 'info' div
+        document.getElementById('list').style.opacity = '1.0';
   }
   else {
     alert("The list can only hold 6 items in it");
@@ -48,10 +49,10 @@ function listPrint() {
 
 //  NOT SURE IF THIS WILL EVER BE USED------------------------------------------------------------
 function show(){
-  document.getElementById('who').style.display = 'inline';
+  document.getElementById('who').style.opacity = '1.0';
 }
 function hide() {
-  document.getElementById('who').style.display = 'none'; //On mouseout, the text is hidden again
+  document.getElementById('who').style.opacity = '0.0'; //On mouseout, the text is hidden again
 }
 //-------------------------------------------------------------------------------------------------
 

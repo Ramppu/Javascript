@@ -8,36 +8,36 @@
 </head>
 <body>
   <h1>Simple TO-DO List</h1>
-  <div class="row">
-    <div class="col"><p>This Site was Developed as a project for school.<br>It's main purpose is to practise Javascript shit</p></div>
-  </div>
     <div class="row">
-      <div class="col">
-        <form id="toDo" onsubmit="return false" autocomplete="off">
-            <label for = "task1">Task 1</label>
-              <input type="text" placeholder="Task One"id="t1" required>
-
-            <label for = "task2">Task 2</label>
-             <input type="text" placeholder="Task Two" id="t2" required>
-
-           <label for = "task3">Task3</label>
-            <input type="text" placeholder="Task Three"id="t3" required>
-
-           <label for = "Submit"></label>
-            <input id="sbmt" type="submit" value="Update Tasks" onclick="listPrint()">
-        </form>
-      </div>
-        <div class="col" id="lst" onclick="hideInfo()">
-          <ul id="list"></ul>
-      </div>
-      <div class="col"></div>
+      <div class="col"><p>This Site was Developed as a project for school.<br>It's main purpose is to practise Javascript shit</p></div>
     </div>
-    <div class="row">
-      <div class="col"><img id="pic" src="resources/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>
-      <div class="col" id="info"><p>Items in the list can be removed by clicking on them<br>List Count is capped to 6 items</p></div>
-      <div class="col"></div>
-      <script>hideInfo()</script>
-    </div>
+      <div class="row">
+        <div class="six columns">
+          <form id="toDo" onsubmit="return false" autocomplete="off">
+              <label for = "task1">Task 1</label>
+                <input type="text" placeholder="Task One"id="t1" required>
+
+              <label for = "task2">Task 2</label>
+               <input type="text" placeholder="Task Two" id="t2" required>
+
+             <label for = "task3">Task3</label>
+              <input type="text" placeholder="Task Three"id="t3" required>
+
+             <label for = "Submit"></label>
+              <input id="sbmt" type="submit" value="Update Tasks" onclick="listPrint()">
+          </form>
+        </div>
+          <div class="col" id="lst" onclick="hideInfo()">
+            <ul id="list"></ul>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col"><img id="pic" src="resources/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>
+        <div class="col" id="info"><p>Items in the list can be removed by clicking on them<br>List Count is capped to 6 items</p></div>
+        <div class="col"></div>
+        <script>hideInfo()</script>
+      </div>
     <!-- this is only shown as an error -->
 <div id="mod" class="modal">
   <div class="modal-content">

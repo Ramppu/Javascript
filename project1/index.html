@@ -7,10 +7,6 @@
 <script type="text/javascript" src="javascript/functions.js"></script>
 </head>
 <body>
-  <div class="topnav">
-  <a class="active" href="index.html">To-Do List</a>
-  <a href="sports.html">Sports Diary</a>
-  </div>
   <h1>Simple TO-DO List</h1>
     <div class="row">
       <div class="col">
@@ -18,26 +14,27 @@
             <label for = "task1">Task 1</label>
               <input type="text" placeholder="Task One" name="t1" id="t1">
 
-            <label for = "task2">Task 2</label>
-             <input type="text" placeholder="Task Two" name="t2" id="t2">
+              <label for = "task2">Task 2</label>
+               <input type="text" placeholder="Task Two" id="t2" required>
 
-           <label for = "task3">Task3</label>
-            <input type="text" placeholder="Task Three" name="t3" id="t3">
+             <label for = "task3">Task3</label>
+              <input type="text" placeholder="Task Three"id="t3" required>
 
-           <label for = "Submit"></label>
-            <input type="submit" value="Update Tasks" onclick="listPrint()">
-        </form>
+             <label for = "Submit"></label>
+              <input id="sbmt" type="submit" value="Update Tasks" onclick="listPrint()">
+          </form>
+        </div>
+          <div class="col" id="lst" onclick="hideInfo()">
+            <ul id="list"></ul>
+        </div>
+        <div class="col"></div>
       </div>
-        <div class="col" id="lst">
-          <ul id="list"></ul>
+      <div class="row">
+        <div class="col"><img id="pic" src="resources/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>
+        <div class="col" id="info"><p>Items in the list can be removed by clicking on them<br>List Count is capped to 6 items</p></div>
+        <div class="col"></div>
+        <script>hideInfo()</script>
       </div>
-    </div>
-
-    <div class="row" id="removeBtn">
-      <button id="dlt" onclick="deleteChild()"><p id ="dltT">Remove the oldest task</p></button>
-      <script>hideBtn()</script>
-    </div>
-
     <!-- this is only shown as an error -->
 <div id="mod" class="modal">
   <div class="modal-content">

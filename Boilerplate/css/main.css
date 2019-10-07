@@ -268,7 +268,7 @@ body {
   background: #009FFF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 110% 110%;
+  background-size: 100% 100%;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -288,7 +288,8 @@ a {
 }
 
 h1 {
-margin-left: 40%;
+margin-left: 5%;
+font-size: 280%;
 }
 
 input {
@@ -304,6 +305,7 @@ input {
   background: linear-gradient(to right, #ec2F4B, #009FFF);
   transition: all 2s;
   opacity: 0.5;
+  font-size: 75%;
 }
 
 input:hover, input:active, input[type="text"]:valid {
@@ -315,12 +317,14 @@ input:hover, input:active, input[type="text"]:valid {
 #sbmt {
   width: 23%;
   opacity: 1;
+  margin-top: 4%;
 }
 
 label {
   margin-left: 5%;
   display: block;
   text-align: left;
+  font-size: 60%;
 }
 
 .modal-content {
@@ -331,6 +335,7 @@ label {
   border: 2px solid white;
   width: 80%;
   cursor: default;
+  transition: all 2s;
 }
 
 .close {
@@ -349,6 +354,7 @@ label {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transition: all 2s;
 }
 
 /* Modal Content */
@@ -358,6 +364,7 @@ label {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  transition: all 2s;
 }
 
 /* The Close Button */
@@ -380,6 +387,7 @@ label {
 #who {
   transition: all 1s;
   opacity: 0.0;
+  display: inline;
 }
 li {
   cursor: pointer;

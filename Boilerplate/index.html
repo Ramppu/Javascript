@@ -32,16 +32,16 @@
         <div class="six columns">
           <form id="toDo" onsubmit="return false" autocomplete="off">
               <label for = "task1">Task 1</label>
-                <input type="text" placeholder="Task One"id="t1"required>
+                <input type="text" placeholder="1"id="t1"required>
 
               <label for = "task2">Task 2</label>
-               <input type="text" placeholder="Task Two" id="t2"required>
+               <input type="text" placeholder="2" id="t2"required>
 
-             <label for = "task3">Task3</label>
-              <input type="text" placeholder="Task Three"id="t3"required>
+             <label for = "task3">Task 3</label>
+              <input type="text" placeholder="3"id="t3"required>
 
              <label for = "Submit"></label>
-              <input id="sbmt" type="submit" value="Update Tasks" onclick="listPrint()">
+              <input id="sbmt" type="submit" value="Submit" onclick="listPrint()">
           </form>
         </div>
           <div class="six columns" id="lst" onclick="hideInfo()">
@@ -51,6 +51,18 @@
       <div class="row">
         <div class="six columns"><img id="pic" src="img/smileW.png" onmouseover="show()" onmouseout="hide()"><p id="who">I Did This :)</p></img></div>
         <div class="six columns" id="info"><p>Items in the list can be removed by clicking on them<br>List Count is capped to 6 items</p></div>
+      </div>
+      <div class="row" id="linkTable">
+        <div class="12 colums">
+          <div class="dropdown">
+            <button onclick="dropDown()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="https://www.google.com" target="_blank">Google</a>
+              <a href="https://hasitleaked.com" target="_blank">Has It Leaked?</a>
+              <a href="https://www.laurea.fi" target="_blank">Laurea</a>
+            </div>
+          </div>
+        </div>
       </div>
     <!-- this is only shown as an error -->
     <div id="myModal" class="modal">

@@ -14,7 +14,7 @@ function listPrint() {
           //Modal generation
 
           span.onclick = function() {
-            modal.style.display = "none"; //Clicking span elements hides the modal
+            modal.style.display = "none"; //Clicking span element hides the modal
           }
 
           window.onclick = function(event) {

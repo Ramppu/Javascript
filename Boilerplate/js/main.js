@@ -7,30 +7,27 @@ function listPrint() {
   if(document.getElementsByTagName('li').length < 6) {
       if (z == '' && x == '' && y == '') {//IF THE FORM IS SUBMITTED EMPTY
           // Get the modal
-          var modal = document.getElementById("myModal");
+          var modal = document.getElementById("modal");
           var span = document.getElementsByClassName("close")[0];
           modal.style.display = "block";
 
-
-          // When the user clicks on <span> (x), close the modal
           span.onclick = function() {
-            modal.style.display = "none";
+            modal.style.display = "none"; // When the user clicks on <span> (x), close the modal
           }
 
-          // When the user clicks anywhere outside of the modal, close it
           window.onclick = function(event) {
             if (event.target == modal) {
-              modal.style.display = "none";
+              modal.style.display = "none"; // When the user clicks anywhere outside of the modal, close the modal
             }
           }
         }
         else {
           for(var i = 0; i < tasks.length-1;i++) { //tasks.length-1 because 'submit' considers itself as input, and we dont want to print that to the site
             var listElement = document.createElement("li"); //Creating an 'li' element
-            listElement.onclick = function(e) { this.parentNode.removeChild(this)}; //Creating a function for every 'li' element, that removes it by mouseclick
+            listElement.onclick = function(e) {this.parentNode.removeChild(this)}; //Creating a function for every 'li' element, that removes it by mouseclick
             var listContent = document.createTextNode(tasks[i].value); //Creating a text node, that can be given to the 'li' element
               if(tasks[i].value == ''){
-                console.log('Empty values are not printed'); //if 'tasks[i].value' is empty, it is not printed to the user
+                console.log('Empty values are not printed'); //if 'tasks[i].value' is empty, it is not printed to the site
               }
               else {
                 listElement.appendChild(listContent);
@@ -45,18 +42,18 @@ function listPrint() {
         document.getElementById('list').style.opacity = '1.0';
   }
   else {
-    alert("The list can only hold 6 items in it");
+    alert("The list can only hold 6 items in it");//Can go over 6 if 2/3 elements are added, when list length is 5
   }
 }
 
-//  NOT SURE IF THIS WILL EVER BE USED------------------------------------------------------------
+
 function show(){
-  document.getElementById('who').style.opacity = '1.0';
+  document.getElementById('who').style.opacity = '1.0'; //Hovering picture makes the text appear
 }
 function hide() {
   document.getElementById('who').style.opacity = '0.0'; //On mouseout, the text is hidden again
 }
-//-------------------------------------------------------------------------------------------------
+
 
 function hideInfo() {
   if(document.getElementsByTagName('li').length <= 0) { // if there are no 'li' elements on the website, 'info' div is hidden
@@ -67,20 +64,16 @@ function hideInfo() {
   }
 }
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function dropDown() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("dropdown").classList.toggle("show"); //Dropdown content is shown, when the button is pressed
 
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
+  window.onclick = function(event) { // Close the dropdown if the user clicks outside of it
+    if (!event.target.matches('.dropbtn')) { //If click doesnt happen on the button
+      var dropdowns = document.getElementsByClassName("dropdown-content"); // Table the content within the class
+      for (var i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+        if (openDropdown.classList.contains('show')) { //If table content[i] is affected by 'show' css property
+          openDropdown.classList.remove('show'); //Remove the connection
         }
       }
     }

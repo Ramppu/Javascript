@@ -66,13 +66,12 @@ function hideInfo() {
 
 function dropDown() {
   document.getElementById("dropdown").classList.toggle("show"); //Dropdown content is shown, when the button is pressed
-
   window.onclick = function(event) { // Close the dropdown if the user clicks outside of it
     if (!event.target.matches('.dropbtn')) { //If click doesnt happen on the button
       var dropdowns = document.getElementsByClassName("dropdown-content"); // Table the content within the class
       for (var i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) { //If table content[i] is affected by 'show' css property
+        if (openDropdown.classList.contains('show')) { //If table content[i] is affected by 'show' css property,
           openDropdown.classList.remove('show'); //Remove the connection
         }
       }

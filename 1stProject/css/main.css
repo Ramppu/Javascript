@@ -507,5 +507,9 @@ ul {
     margin-top: 7%;
     margin-left: 20%;
   }
+  #inst {
+    margin-right: 5%;
+    margin-left: 1%;
+  }
   /* Style adjustments for viewports that meet the condition */
 }

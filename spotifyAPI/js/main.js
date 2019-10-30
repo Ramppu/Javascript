@@ -1,5 +1,5 @@
-var url = "https://api.spotify.com/v1/search?q=tania%20bowra&type=artist";
-var auth = "BQAgEveRY72-yvZXv-kugJGDz6XZTJ9eFY_Wph0Jb-bgmKzXUD9MM4ITY-zho0R4nl9gUQ4-v5w82mp-CEYozUkdOMADNkBVILfCfVvtzWy83UEdfG7kSEk303xTbh5M-LSG5C_1kfbGVlC6-LGCUHPyV1ZyQ_Jx_hY";
+var url = "https://api.spotify.com/v1/artists/0OdUWJ0sBjDrqHygGUXeCF"; // var url = käyttäjänPaska
+var auth = "BQCP-6uppt0dKZ8YHqiKLbnbUDR0ToENgeMol6h-YZYcfGi1LIl_hC3FNJkWhwF9oTHxhnILiWdRD2HFuo6gZskflrm-5IzVBX0nraiN_wWqB2_Ie-bKYziYhbQG3Yk5Kxp9DixmWOYNn0AC1DAE67IO8-ubw1UgIH4";
 
 function searchSpotify() {
   var xmlhttp = new XMLHttpRequest();
@@ -11,6 +11,27 @@ function searchSpotify() {
   xmlhttp.onreadystatechange=function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
        console.log(xmlhttp.responseText);
+       var k = JSON.parse(xmlhttp.responseText);
+       document.getElementById('FL').append(k.followers.total);
+       var img = document.createElement('img');
+       img.src = k.images[2].url;
+      document.getElementById('rawdata').append(img);
     }
   }
 }
+
+function login() {
+  console.log("lol");
+    main.get('/login', function(req, res) {
+    var scopes = 'user-read-private user-read-email';
+    res.redirect('https://accounts.spotify.com/authorize' +
+  '?response_type=code' +
+  '&client_id=' + my_client_id +
+  (scopes ? '&scope=' + encodeURIComponent(scopes) : '') +
+  '&redirect_uri=' + encodeURIComponent(redirect_uri));
+});
+}
+    //input field id="paska"
+    //var url = document.getElementById('paska').value;
+    //<p id="kulli">iqj092093ieweoiqwqe3gpoiwgwgojg</p>
+    //var auth = document.getElementById('kulli').innerHTML;/.value;

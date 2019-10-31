@@ -1,0 +1,30 @@
+body {
+  background-color: #191414;
+}
+
+h1 {
+  color: #1DB954;
+  margin-left: 1%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-left: 2%;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+#headerimg {
+  width: 400px;
+  height: 125px;
+  margin-top: 2%;
+}

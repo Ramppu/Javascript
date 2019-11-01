@@ -6,7 +6,7 @@ h1 {
   color: #1DB954;
   margin-left: 1%;
   font-family: 'Montserrat', sans-serif;
-  font-size: 100px;
+  font-size: 70px;
   margin-bottom: 0;
 }
 
@@ -17,14 +17,29 @@ p {
   font-size: 25px;
 }
 
-
+input,select {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 1%;
+  margin-left: 5%;
+  display: block;
+  border: 1px solid #1DB954;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #191414;
+  transition: all 2s;
+  opacity: 0.5;
+  display: inline;
+}
 
 
 
 
 
 #headerimg {
-  width: 400px;
-  height: 125px;
+  height: auto;
+  width: 20%;
   margin-top: 2%;
 }

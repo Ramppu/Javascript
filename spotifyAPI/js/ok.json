@@ -1,0 +1,123 @@
+{
+  "artists" : {
+    "href" : "https://api.spotify.com/v1/search?query=Leprous&type=artist&market=FI&offset=0&limit=20",
+    "items" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4lgrzShsg2FLA89UM2fdO5"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 96013
+      },
+      "genres" : [ "djent", "jazz metal", "neo classical metal", "norwegian metal", "progressive metal" ],
+      "href" : "https://api.spotify.com/v1/artists/4lgrzShsg2FLA89UM2fdO5",
+      "id" : "4lgrzShsg2FLA89UM2fdO5",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/bae14b726ba25afa2edf3510b01b7a0be8bdc406",
+        "width" : 640
+      }, {
+        "height" : 320,
+        "url" : "https://i.scdn.co/image/4a7f4347b24d7657db35549409c020336dfbf816",
+        "width" : 320
+      }, {
+        "height" : 160,
+        "url" : "https://i.scdn.co/image/32014b4e9fd4657a6abd819ba375a08ce7f6631c",
+        "width" : 160
+      } ],
+      "name" : "Leprous",
+      "popularity" : 59,
+      "type" : "artist",
+      "uri" : "spotify:artist:4lgrzShsg2FLA89UM2fdO5"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5cO1KsOzIfXHcegYJAWdBo"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 81
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/5cO1KsOzIfXHcegYJAWdBo",
+      "id" : "5cO1KsOzIfXHcegYJAWdBo",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273020253f114b270b939645e82",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02020253f114b270b939645e82",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851020253f114b270b939645e82",
+        "width" : 64
+      } ],
+      "name" : "Leprous",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:5cO1KsOzIfXHcegYJAWdBo"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6gp9azJS6WkJIn9EaQQJYS"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 129
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/6gp9azJS6WkJIn9EaQQJYS",
+      "id" : "6gp9azJS6WkJIn9EaQQJYS",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732e88bf17069b27e5e9f88020",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022e88bf17069b27e5e9f88020",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512e88bf17069b27e5e9f88020",
+        "width" : 64
+      } ],
+      "name" : "Leprous Divinity",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:6gp9azJS6WkJIn9EaQQJYS"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1WBP27oqVsUwNnVlgcBIug"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 24
+      },
+      "genres" : [ "belarussian metal" ],
+      "href" : "https://api.spotify.com/v1/artists/1WBP27oqVsUwNnVlgcBIug",
+      "id" : "1WBP27oqVsUwNnVlgcBIug",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27342a4696098e036328e80361f",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0242a4696098e036328e80361f",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485142a4696098e036328e80361f",
+        "width" : 64
+      } ],
+      "name" : "Leprous Vortex Sun",
+      "popularity" : 0,
+      "type" : "artist",
+      "uri" : "spotify:artist:1WBP27oqVsUwNnVlgcBIug"
+    } ],
+    "limit" : 20,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 4
+  }
+}

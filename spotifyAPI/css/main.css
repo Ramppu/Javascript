@@ -34,6 +34,14 @@ input,select {
   display: inline;
 }
 
+button {
+  border-radius: 20px;
+  background-color: transparent;
+  color: #1DB954;
+  border: 1px solid #1DB954
+}
+
+
 
 
 

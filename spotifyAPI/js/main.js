@@ -21,12 +21,16 @@ function search() {
        var img = document.createElement('img');
        if (document.getElementById('type').value == 'artist') {
          img.src = data.artists.items[0].images[0].url; // artist picture
+         //MORE ARTIST SHIT
        }
        if(document.getElementById('type').value == 'album') {
          img.src = data.albums.items[0].images[0].url; //album picture
+         //var paska = data.albums.items[0].external_urls.spotify;
+         //MORE ALBUM SHIT
        }
        if(document.getElementById('type').value == 'track') {
         img.src = data.tracks.items[0].album.images[0].url; // Album pic via song
+        //MORE SONG SHIT
       }
       document.getElementById('test').append(img);
    }

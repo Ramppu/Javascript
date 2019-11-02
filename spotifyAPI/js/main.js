@@ -19,9 +19,15 @@ function search() {
       console.log(xmlhttp.responseText);
        var data = JSON.parse(xmlhttp.responseText);
        var img = document.createElement('img');
-       img.src = data.artists.items[0].images[0].url; // artist picture
-       //  img.src = data.albums.items[0].images[0].url; album picture
-       // img.src = data.tracks.items[0].album.images[0].url; //Album picture via song search
+       if (document.getElementById('type').value == 'artist') {
+         img.src = data.artists.items[0].images[0].url; // artist picture
+       }
+       if(document.getElementById('type').value == 'album') {
+         img.src = data.albums.items[0].images[0].url; //album picture
+       }
+       if(document.getElementById('type').value == 'track') {
+        img.src = data.tracks.items[0].album.images[0].url; // Album pic via song
+      }
       document.getElementById('test').append(img);
    }
  }

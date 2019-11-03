@@ -49,12 +49,23 @@ function search() {
          info.append(release);
          info.append(document.createElement('br'));
          info.append(count);
-
          //MORE ALBUM SHIT
        }
        if(document.getElementById('type').value == 'track') {
-        img.src = data.tracks.items[0].album.images[0].url; // Album pic via song
-        //MORE SONG SHIT
+        img.src = data.tracks.items[0].album.images[1].url; // Album pic via song
+        var album = document.createTextNode("A Song Within: " + data.tracks.items[0].album.name);
+        var release = document.createTextNode("Album's Release Date: " + data.tracks.items[0].album.release_date);//MORE SONG SHIT
+        var artist = document.createTextNode("Artist: " + data.tracks.items[0].artists[0].name);
+        info.append(artist);
+        info.append(document.createElement('br'));
+        info.append(album);
+        info.append(document.createElement('br'));
+        info.append(release);
+
+        var link = document.createTextNode("Go To The Album");
+        text.onclick = function(e) {window.open(data.tracks.items[0].external_urls.spotify,'_blank')};
+        text.style.cursor = "pointer";
+        text.append(link);
       }
       document.getElementById('picture').append(img);
 

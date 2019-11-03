@@ -1,779 +1,147 @@
 {
-  "albums" : {
-    "href" : "https://api.spotify.com/v1/search?query=Malina&type=album&market=FI&offset=0&limit=20",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=Into+the+void+klone&type=track&market=FI&offset=0&limit=20",
     "items" : [ {
-      "album_type" : "album",
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0J2gE1fVwnMhsh0OxUpUPT"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0J2gE1fVwnMhsh0OxUpUPT",
+          "id" : "0J2gE1fVwnMhsh0OxUpUPT",
+          "name" : "Klone",
+          "type" : "artist",
+          "uri" : "spotify:artist:0J2gE1fVwnMhsh0OxUpUPT"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/61bU51kdZg02JviJSmy0ci"
+        },
+        "href" : "https://api.spotify.com/v1/albums/61bU51kdZg02JviJSmy0ci",
+        "id" : "61bU51kdZg02JviJSmy0ci",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273a9bf1a0e5e9937ec45f25bb1",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02a9bf1a0e5e9937ec45f25bb1",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851a9bf1a0e5e9937ec45f25bb1",
+          "width" : 64
+        } ],
+        "name" : "The Dreamer's Hideaway",
+        "release_date" : "2015-02-16",
+        "release_date_precision" : "day",
+        "total_tracks" : 11,
+        "type" : "album",
+        "uri" : "spotify:album:61bU51kdZg02JviJSmy0ci"
+      },
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/4lgrzShsg2FLA89UM2fdO5"
+          "spotify" : "https://open.spotify.com/artist/0J2gE1fVwnMhsh0OxUpUPT"
         },
-        "href" : "https://api.spotify.com/v1/artists/4lgrzShsg2FLA89UM2fdO5",
-        "id" : "4lgrzShsg2FLA89UM2fdO5",
-        "name" : "Leprous",
+        "href" : "https://api.spotify.com/v1/artists/0J2gE1fVwnMhsh0OxUpUPT",
+        "id" : "0J2gE1fVwnMhsh0OxUpUPT",
+        "name" : "Klone",
         "type" : "artist",
-        "uri" : "spotify:artist:4lgrzShsg2FLA89UM2fdO5"
+        "uri" : "spotify:artist:0J2gE1fVwnMhsh0OxUpUPT"
       } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/0DvboP39IwpnJU9QrKIpDW"
+      "available_markets" : ["AD","AE","AR","AT","AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA"],
+      "disc_number" : 1,
+      "duration_ms" : 324840,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "QM4TW1722572"
       },
-      "href" : "https://api.spotify.com/v1/albums/0DvboP39IwpnJU9QrKIpDW",
-      "id" : "0DvboP39IwpnJU9QrKIpDW",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/b40e499d7c21fb9bf8d44a2cf4777bb4c4c87bf0",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/9771777450305c4ff0b8a593fc5fa0104aea250e",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/e7af87409bb80e5cfa62e2762c29c94e24bb370f",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2017-08-25",
-      "release_date_precision" : "day",
-      "total_tracks" : 11,
-      "type" : "album",
-      "uri" : "spotify:album:0DvboP39IwpnJU9QrKIpDW"
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2kCECwhfrWBgJD9sNml3aW"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2kCECwhfrWBgJD9sNml3aW",
+      "id" : "2kCECwhfrWBgJD9sNml3aW",
+      "is_local" : false,
+      "name" : "Into the Void",
+      "popularity" : 16,
+      "preview_url" : "https://p.scdn.co/mp3-preview/34617b93c500b5bb44c864a20b95ea18f97fbfd7?cid=c7e183fe68ed459e95e67fde31ce89b8",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:2kCECwhfrWBgJD9sNml3aW"
     }, {
-      "album_type" : "single",
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0J2gE1fVwnMhsh0OxUpUPT"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0J2gE1fVwnMhsh0OxUpUPT",
+          "id" : "0J2gE1fVwnMhsh0OxUpUPT",
+          "name" : "Klone",
+          "type" : "artist",
+          "uri" : "spotify:artist:0J2gE1fVwnMhsh0OxUpUPT"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2eB4Om6bJ29NEkG8d10axT"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2eB4Om6bJ29NEkG8d10axT",
+        "id" : "2eB4Om6bJ29NEkG8d10axT",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2735f440d6b008513a267dd437a",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e025f440d6b008513a267dd437a",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048515f440d6b008513a267dd437a",
+          "width" : 64
+        } ],
+        "name" : "Unplugged",
+        "release_date" : "2017-02-17",
+        "release_date_precision" : "day",
+        "total_tracks" : 11,
+        "type" : "album",
+        "uri" : "spotify:album:2eB4Om6bJ29NEkG8d10axT"
+      },
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/10zbpX1YXWNu4v91dqPptm"
+          "spotify" : "https://open.spotify.com/artist/0J2gE1fVwnMhsh0OxUpUPT"
         },
-        "href" : "https://api.spotify.com/v1/artists/10zbpX1YXWNu4v91dqPptm",
-        "id" : "10zbpX1YXWNu4v91dqPptm",
-        "name" : "Shockline",
+        "href" : "https://api.spotify.com/v1/artists/0J2gE1fVwnMhsh0OxUpUPT",
+        "id" : "0J2gE1fVwnMhsh0OxUpUPT",
+        "name" : "Klone",
         "type" : "artist",
-        "uri" : "spotify:artist:10zbpX1YXWNu4v91dqPptm"
-      }, {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/1DxF1vZKuAPnpuBoCLanOi"
-        },
-        "href" : "https://api.spotify.com/v1/artists/1DxF1vZKuAPnpuBoCLanOi",
-        "id" : "1DxF1vZKuAPnpuBoCLanOi",
-        "name" : "Malina Stark",
-        "type" : "artist",
-        "uri" : "spotify:artist:1DxF1vZKuAPnpuBoCLanOi"
+        "uri" : "spotify:artist:0J2gE1fVwnMhsh0OxUpUPT"
       } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/6TYsvSc8JOR3hgngNdRp92"
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 268000,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "DEZ651702021"
       },
-      "href" : "https://api.spotify.com/v1/albums/6TYsvSc8JOR3hgngNdRp92",
-      "id" : "6TYsvSc8JOR3hgngNdRp92",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/204462cba1112fcdd2b16068a670de0dacdc72a8",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/f3e719c1da55b6014ac20a6b01121d1ec85bf436",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/0a2bd198d41ef1b47ace38acfcbecae2cbff937f",
-        "width" : 64
-      } ],
-      "name" : "Say It All",
-      "release_date" : "2019-08-02",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:6TYsvSc8JOR3hgngNdRp92"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/2P6eqhkVgAEOEQu8RsG8nN"
-        },
-        "href" : "https://api.spotify.com/v1/artists/2P6eqhkVgAEOEQu8RsG8nN",
-        "id" : "2P6eqhkVgAEOEQu8RsG8nN",
-        "name" : "DJ Layla",
-        "type" : "artist",
-        "uri" : "spotify:artist:2P6eqhkVgAEOEQu8RsG8nN"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/7bvsLxDgcrndVzDzGkrWGD"
+        "spotify" : "https://open.spotify.com/track/5VYTYv3kPhwI5wyvvvYZaO"
       },
-      "href" : "https://api.spotify.com/v1/albums/7bvsLxDgcrndVzDzGkrWGD",
-      "id" : "7bvsLxDgcrndVzDzGkrWGD",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b2736d842762260d4152c634767f",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e026d842762260d4152c634767f",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d000048516d842762260d4152c634767f",
-        "width" : 64
-      } ],
-      "name" : "Ecou (feat. Malina Tanase)",
-      "release_date" : "2016-10-01",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:7bvsLxDgcrndVzDzGkrWGD"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6WMcQ8CE8fz18dWdPgSJP7"
-        },
-        "href" : "https://api.spotify.com/v1/artists/6WMcQ8CE8fz18dWdPgSJP7",
-        "id" : "6WMcQ8CE8fz18dWdPgSJP7",
-        "name" : "Sos",
-        "type" : "artist",
-        "uri" : "spotify:artist:6WMcQ8CE8fz18dWdPgSJP7"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/17je4MIXUfhdy6T0VArjnt"
-      },
-      "href" : "https://api.spotify.com/v1/albums/17je4MIXUfhdy6T0VArjnt",
-      "id" : "17je4MIXUfhdy6T0VArjnt",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273cd82606c6731640bffb0d830",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02cd82606c6731640bffb0d830",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851cd82606c6731640bffb0d830",
-        "width" : 64
-      } ],
-      "name" : "Malina Denover",
-      "release_date" : "2019-08-19",
-      "release_date_precision" : "day",
-      "total_tracks" : 2,
-      "type" : "album",
-      "uri" : "spotify:album:17je4MIXUfhdy6T0VArjnt"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/00ekfPE5ZS3NwF8H8o8GBk"
-        },
-        "href" : "https://api.spotify.com/v1/artists/00ekfPE5ZS3NwF8H8o8GBk",
-        "id" : "00ekfPE5ZS3NwF8H8o8GBk",
-        "name" : "Mig",
-        "type" : "artist",
-        "uri" : "spotify:artist:00ekfPE5ZS3NwF8H8o8GBk"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/68Q1Yi60UHYHmmOmKgVBfH"
-      },
-      "href" : "https://api.spotify.com/v1/albums/68Q1Yi60UHYHmmOmKgVBfH",
-      "id" : "68Q1Yi60UHYHmmOmKgVBfH",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b27378b1f0d6938aed47a96ddc4b",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e0278b1f0d6938aed47a96ddc4b",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d0000485178b1f0d6938aed47a96ddc4b",
-        "width" : 64
-      } ],
-      "name" : "Miód malina (Radio Edit)",
-      "release_date" : "2013-09-19",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:68Q1Yi60UHYHmmOmKgVBfH"
-    }, {
-      "album_type" : "album",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/3fPngdGRZMBzFFBf3ql2XK"
-        },
-        "href" : "https://api.spotify.com/v1/artists/3fPngdGRZMBzFFBf3ql2XK",
-        "id" : "3fPngdGRZMBzFFBf3ql2XK",
-        "name" : "Malina Moye",
-        "type" : "artist",
-        "uri" : "spotify:artist:3fPngdGRZMBzFFBf3ql2XK"
-      } ],
-      "available_markets" : [ "AT", "BE", "BG", "CH", "CY", "CZ", "DE", "DZ", "EE", "ES", "FI", "FR", "GB", "GR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "NL", "NO", "PL", "PT", "RO", "SE", "SK", "TR" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/0UtSrKnJwzTsKSoMGisbwf"
-      },
-      "href" : "https://api.spotify.com/v1/albums/0UtSrKnJwzTsKSoMGisbwf",
-      "id" : "0UtSrKnJwzTsKSoMGisbwf",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b27325b1c7ab56c5e483fa5790f3",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e0225b1c7ab56c5e483fa5790f3",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d0000485125b1c7ab56c5e483fa5790f3",
-        "width" : 64
-      } ],
-      "name" : "Bad As I Wanna Be",
-      "release_date" : "2018-03-23",
-      "release_date_precision" : "day",
-      "total_tracks" : 10,
-      "type" : "album",
-      "uri" : "spotify:album:0UtSrKnJwzTsKSoMGisbwf"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/7CR6RUWfaHaFDwt2H8azGa"
-        },
-        "href" : "https://api.spotify.com/v1/artists/7CR6RUWfaHaFDwt2H8azGa",
-        "id" : "7CR6RUWfaHaFDwt2H8azGa",
-        "name" : "Chillout & Levelon",
-        "type" : "artist",
-        "uri" : "spotify:artist:7CR6RUWfaHaFDwt2H8azGa"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/2AOJmeI7jQaTmwNaxfKGZx"
-      },
-      "href" : "https://api.spotify.com/v1/albums/2AOJmeI7jQaTmwNaxfKGZx",
-      "id" : "2AOJmeI7jQaTmwNaxfKGZx",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273deb2d9ee33bff8201cef9b80",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02deb2d9ee33bff8201cef9b80",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851deb2d9ee33bff8201cef9b80",
-        "width" : 64
-      } ],
-      "name" : "Kalina Malina (Radio Edit)",
-      "release_date" : "2019-04-24",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:2AOJmeI7jQaTmwNaxfKGZx"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/40E4593cNxTHYkQth5ZkdX"
-        },
-        "href" : "https://api.spotify.com/v1/artists/40E4593cNxTHYkQth5ZkdX",
-        "id" : "40E4593cNxTHYkQth5ZkdX",
-        "name" : "Malina Boy",
-        "type" : "artist",
-        "uri" : "spotify:artist:40E4593cNxTHYkQth5ZkdX"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/0fJEDGWXTTPsSUqW8hwouH"
-      },
-      "href" : "https://api.spotify.com/v1/albums/0fJEDGWXTTPsSUqW8hwouH",
-      "id" : "0fJEDGWXTTPsSUqW8hwouH",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273a6541ad38ee9fcfa61f8cf64",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02a6541ad38ee9fcfa61f8cf64",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851a6541ad38ee9fcfa61f8cf64",
-        "width" : 64
-      } ],
-      "name" : "Kuraj",
-      "release_date" : "2015-08-21",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:0fJEDGWXTTPsSUqW8hwouH"
-    }, {
-      "album_type" : "album",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5MgsUa4ow9PAWtbBP92IwT"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5MgsUa4ow9PAWtbBP92IwT",
-        "id" : "5MgsUa4ow9PAWtbBP92IwT",
-        "name" : "Laura Malina Seiler",
-        "type" : "artist",
-        "uri" : "spotify:artist:5MgsUa4ow9PAWtbBP92IwT"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/7p7L6pXqkV7ODfKPuzTyJW"
-      },
-      "href" : "https://api.spotify.com/v1/albums/7p7L6pXqkV7ODfKPuzTyJW",
-      "id" : "7p7L6pXqkV7ODfKPuzTyJW",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273b47b6744b5e94bb7c2d72c82",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02b47b6744b5e94bb7c2d72c82",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851b47b6744b5e94bb7c2d72c82",
-        "width" : 64
-      } ],
-      "name" : "Mögest du glücklich sein. Entdecke dein Höheres Selbst und verbinde dich mit deiner inneren Kraft",
-      "release_date" : "2018-05-04",
-      "release_date_precision" : "day",
-      "total_tracks" : 108,
-      "type" : "album",
-      "uri" : "spotify:album:7p7L6pXqkV7ODfKPuzTyJW"
-    }, {
-      "album_type" : "album",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/2WP3SX3VogIeqpZVCh8C1k"
-        },
-        "href" : "https://api.spotify.com/v1/artists/2WP3SX3VogIeqpZVCh8C1k",
-        "id" : "2WP3SX3VogIeqpZVCh8C1k",
-        "name" : "MALINA",
-        "type" : "artist",
-        "uri" : "spotify:artist:2WP3SX3VogIeqpZVCh8C1k"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/6kUbkinkdgMVFPIh1AXgB0"
-      },
-      "href" : "https://api.spotify.com/v1/albums/6kUbkinkdgMVFPIh1AXgB0",
-      "id" : "6kUbkinkdgMVFPIh1AXgB0",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/7331e4ba50c8da37f423e62384890a920ce572a8",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/c492c93c43dd165e72923949215cc2694bd4e3c1",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/7e1cde468fb50764471f86ecc2ec22cdf3db63dc",
-        "width" : 64
-      } ],
-      "name" : "Ognena zvezda",
-      "release_date" : "2001-02-01",
-      "release_date_precision" : "day",
-      "total_tracks" : 14,
-      "type" : "album",
-      "uri" : "spotify:album:6kUbkinkdgMVFPIh1AXgB0"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/3fPngdGRZMBzFFBf3ql2XK"
-        },
-        "href" : "https://api.spotify.com/v1/artists/3fPngdGRZMBzFFBf3ql2XK",
-        "id" : "3fPngdGRZMBzFFBf3ql2XK",
-        "name" : "Malina Moye",
-        "type" : "artist",
-        "uri" : "spotify:artist:3fPngdGRZMBzFFBf3ql2XK"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/5tV2NpJnTOVZ5AIKZHY9Eg"
-      },
-      "href" : "https://api.spotify.com/v1/albums/5tV2NpJnTOVZ5AIKZHY9Eg",
-      "id" : "5tV2NpJnTOVZ5AIKZHY9Eg",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b27375eb15bd68c42d02bb0d94af",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e0275eb15bd68c42d02bb0d94af",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d0000485175eb15bd68c42d02bb0d94af",
-        "width" : 64
-      } ],
-      "name" : "Bad as I Wanna Be",
-      "release_date" : "2018-03-23",
-      "release_date_precision" : "day",
-      "total_tracks" : 6,
-      "type" : "album",
-      "uri" : "spotify:album:5tV2NpJnTOVZ5AIKZHY9Eg"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6qKceBpVroqrLLVZf3oZpv"
-        },
-        "href" : "https://api.spotify.com/v1/artists/6qKceBpVroqrLLVZf3oZpv",
-        "id" : "6qKceBpVroqrLLVZf3oZpv",
-        "name" : "Malina Claire",
-        "type" : "artist",
-        "uri" : "spotify:artist:6qKceBpVroqrLLVZf3oZpv"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/6UpCfIkM2LsLOERMB5V0Ix"
-      },
-      "href" : "https://api.spotify.com/v1/albums/6UpCfIkM2LsLOERMB5V0Ix",
-      "id" : "6UpCfIkM2LsLOERMB5V0Ix",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b27388d80cf3af490777315b26f6",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e0288d80cf3af490777315b26f6",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d0000485188d80cf3af490777315b26f6",
-        "width" : 64
-      } ],
-      "name" : "Behind Closed Doors",
-      "release_date" : "2019-04-05",
-      "release_date_precision" : "day",
-      "total_tracks" : 4,
-      "type" : "album",
-      "uri" : "spotify:album:6UpCfIkM2LsLOERMB5V0Ix"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/07fXe5NXGIokyACcYI8cB3"
-        },
-        "href" : "https://api.spotify.com/v1/artists/07fXe5NXGIokyACcYI8cB3",
-        "id" : "07fXe5NXGIokyACcYI8cB3",
-        "name" : "Sharip",
-        "type" : "artist",
-        "uri" : "spotify:artist:07fXe5NXGIokyACcYI8cB3"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/1KFSreqbDu61Wk1zJYjDJO"
-      },
-      "href" : "https://api.spotify.com/v1/albums/1KFSreqbDu61Wk1zJYjDJO",
-      "id" : "1KFSreqbDu61Wk1zJYjDJO",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273014a60a31f7e0e9348e45b2c",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02014a60a31f7e0e9348e45b2c",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851014a60a31f7e0e9348e45b2c",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2019-08-05",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:1KFSreqbDu61Wk1zJYjDJO"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6bU4eNYNQoDAfxrmW0mzp6"
-        },
-        "href" : "https://api.spotify.com/v1/artists/6bU4eNYNQoDAfxrmW0mzp6",
-        "id" : "6bU4eNYNQoDAfxrmW0mzp6",
-        "name" : "Bang Avenue",
-        "type" : "artist",
-        "uri" : "spotify:artist:6bU4eNYNQoDAfxrmW0mzp6"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/21fJ3iVqDMzVyQjgDc9gsG"
-      },
-      "href" : "https://api.spotify.com/v1/albums/21fJ3iVqDMzVyQjgDc9gsG",
-      "id" : "21fJ3iVqDMzVyQjgDc9gsG",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273c5ce3356f70f7ebc669cce56",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02c5ce3356f70f7ebc669cce56",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851c5ce3356f70f7ebc669cce56",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2019-03-11",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:21fJ3iVqDMzVyQjgDc9gsG"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5yrVOIHO6JhdlMFGEw6kqL"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5yrVOIHO6JhdlMFGEw6kqL",
-        "id" : "5yrVOIHO6JhdlMFGEw6kqL",
-        "name" : "風可＆葉羽",
-        "type" : "artist",
-        "uri" : "spotify:artist:5yrVOIHO6JhdlMFGEw6kqL"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/2OLXAdE9k86SN3qMaHIoRe"
-      },
-      "href" : "https://api.spotify.com/v1/albums/2OLXAdE9k86SN3qMaHIoRe",
-      "id" : "2OLXAdE9k86SN3qMaHIoRe",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273cf55f9acdbcc38b6d7851804",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02cf55f9acdbcc38b6d7851804",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851cf55f9acdbcc38b6d7851804",
-        "width" : 64
-      } ],
-      "name" : "MALINA",
-      "release_date" : "2018-06-02",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:2OLXAdE9k86SN3qMaHIoRe"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5G8DfZ90fCGmwbe8FcNJ2b"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5G8DfZ90fCGmwbe8FcNJ2b",
-        "id" : "5G8DfZ90fCGmwbe8FcNJ2b",
-        "name" : "Kaniza",
-        "type" : "artist",
-        "uri" : "spotify:artist:5G8DfZ90fCGmwbe8FcNJ2b"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/2fv0xLu6cg9Apw83vXbhEp"
-      },
-      "href" : "https://api.spotify.com/v1/albums/2fv0xLu6cg9Apw83vXbhEp",
-      "id" : "2fv0xLu6cg9Apw83vXbhEp",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273c7bb88912be5610c6cc1f2a6",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02c7bb88912be5610c6cc1f2a6",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851c7bb88912be5610c6cc1f2a6",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2017-08-15",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:2fv0xLu6cg9Apw83vXbhEp"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/4Qm0DuTxI1uk0wrzO5sG8i"
-        },
-        "href" : "https://api.spotify.com/v1/artists/4Qm0DuTxI1uk0wrzO5sG8i",
-        "id" : "4Qm0DuTxI1uk0wrzO5sG8i",
-        "name" : "Stereo Sandwich",
-        "type" : "artist",
-        "uri" : "spotify:artist:4Qm0DuTxI1uk0wrzO5sG8i"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/3OY0KL7iW8YQsKgDd8X5zS"
-      },
-      "href" : "https://api.spotify.com/v1/albums/3OY0KL7iW8YQsKgDd8X5zS",
-      "id" : "3OY0KL7iW8YQsKgDd8X5zS",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273b54d790ab002ca1846ad84a5",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02b54d790ab002ca1846ad84a5",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851b54d790ab002ca1846ad84a5",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2011-06-13",
-      "release_date_precision" : "day",
-      "total_tracks" : 4,
-      "type" : "album",
-      "uri" : "spotify:album:3OY0KL7iW8YQsKgDd8X5zS"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/4W0JlOafw1uYl6o4mOtiwQ"
-        },
-        "href" : "https://api.spotify.com/v1/artists/4W0JlOafw1uYl6o4mOtiwQ",
-        "id" : "4W0JlOafw1uYl6o4mOtiwQ",
-        "name" : "Rafael Osmo",
-        "type" : "artist",
-        "uri" : "spotify:artist:4W0JlOafw1uYl6o4mOtiwQ"
-      }, {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6gjwCkxmmshZ2GmLAL2qqF"
-        },
-        "href" : "https://api.spotify.com/v1/artists/6gjwCkxmmshZ2GmLAL2qqF",
-        "id" : "6gjwCkxmmshZ2GmLAL2qqF",
-        "name" : "Gordey Tsukanov",
-        "type" : "artist",
-        "uri" : "spotify:artist:6gjwCkxmmshZ2GmLAL2qqF"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/5bvWFcZFQwYKlq8z1gduuE"
-      },
-      "href" : "https://api.spotify.com/v1/albums/5bvWFcZFQwYKlq8z1gduuE",
-      "id" : "5bvWFcZFQwYKlq8z1gduuE",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273b6faed38e0f2374a5890620b",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02b6faed38e0f2374a5890620b",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851b6faed38e0f2374a5890620b",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2015-04-06",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:5bvWFcZFQwYKlq8z1gduuE"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6cA9NXLZuzMwJo2EKeY7mT"
-        },
-        "href" : "https://api.spotify.com/v1/artists/6cA9NXLZuzMwJo2EKeY7mT",
-        "id" : "6cA9NXLZuzMwJo2EKeY7mT",
-        "name" : "TeeKai",
-        "type" : "artist",
-        "uri" : "spotify:artist:6cA9NXLZuzMwJo2EKeY7mT"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/60Iauo08ALbIHkSdYTjk4P"
-      },
-      "href" : "https://api.spotify.com/v1/albums/60Iauo08ALbIHkSdYTjk4P",
-      "id" : "60Iauo08ALbIHkSdYTjk4P",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/6cb03b67447929ce7b8c8416ba4eeeb315923d82",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/a54a215a37b18866b86bf2ea047bc4d08814b4be",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/620ff46e6cb9b2ad8637c88a7d1007b922e2c7df",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2019-10-06",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:60Iauo08ALbIHkSdYTjk4P"
-    }, {
-      "album_type" : "single",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/1VTT1d0JOqpeMWFHNFIyDf"
-        },
-        "href" : "https://api.spotify.com/v1/artists/1VTT1d0JOqpeMWFHNFIyDf",
-        "id" : "1VTT1d0JOqpeMWFHNFIyDf",
-        "name" : "Drejan S",
-        "type" : "artist",
-        "uri" : "spotify:artist:1VTT1d0JOqpeMWFHNFIyDf"
-      }, {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6Ig1XkJ0G7e5co2LaRhTil"
-        },
-        "href" : "https://api.spotify.com/v1/artists/6Ig1XkJ0G7e5co2LaRhTil",
-        "id" : "6Ig1XkJ0G7e5co2LaRhTil",
-        "name" : "DJ Agora",
-        "type" : "artist",
-        "uri" : "spotify:artist:6Ig1XkJ0G7e5co2LaRhTil"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/6IhlwkNpkhk56MWrtXwimn"
-      },
-      "href" : "https://api.spotify.com/v1/albums/6IhlwkNpkhk56MWrtXwimn",
-      "id" : "6IhlwkNpkhk56MWrtXwimn",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273913c105dd43d6b00714367d9",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02913c105dd43d6b00714367d9",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851913c105dd43d6b00714367d9",
-        "width" : 64
-      } ],
-      "name" : "Malina",
-      "release_date" : "2019-08-05",
-      "release_date_precision" : "day",
-      "total_tracks" : 1,
-      "type" : "album",
-      "uri" : "spotify:album:6IhlwkNpkhk56MWrtXwimn"
+      "href" : "https://api.spotify.com/v1/tracks/5VYTYv3kPhwI5wyvvvYZaO",
+      "id" : "5VYTYv3kPhwI5wyvvvYZaO",
+      "is_local" : false,
+      "name" : "Into the Void - Unplugged",
+      "popularity" : 9,
+      "preview_url" : "https://p.scdn.co/mp3-preview/13f2a4bb41d544b6eddab749ae010a8a1fdd5cd3?cid=c7e183fe68ed459e95e67fde31ce89b8",
+      "track_number" : 7,
+      "type" : "track",
+      "uri" : "spotify:track:5VYTYv3kPhwI5wyvvvYZaO"
     } ],
     "limit" : 20,
-    "next" : "https://api.spotify.com/v1/search?query=Malina&type=album&market=FI&offset=20&limit=20",
+    "next" : null,
     "offset" : 0,
     "previous" : null,
-    "total" : 80
+    "total" : 2
   }
 }
-debugger eval code:15:15

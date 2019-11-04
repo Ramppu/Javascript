@@ -44,9 +44,17 @@ button {
 }
 
 
+.picture {
 
+}
+.info {
+  border: 1px solid #1DB954;
+  border-radius: 25px;
+  height: 200px;
+}
+.link {
 
-
+}
 
 #headerimg {
   height: auto;

@@ -84,7 +84,7 @@ function search() {
 
       $("#info").html(info);//document.getElementById('info').innerHTML = `${info}`;
 
-      document.getElementById("info").classList.add("info"); 
+      document.getElementById("info").classList.add("info");
 
       $("#link").html(text);//document.getElementById('link').innerHTML = `${text}`;
    }

@@ -25,11 +25,13 @@ function search() {
        var data = JSON.parse(xmlhttp.responseText);
        var img = document.createElement('img'); //Img element for the picture div
        var text = document.createElement('p'); //P element for the link div
+       text.setAttribute('id','linkP')
        var info = document.createElement('p'); //P element for the info div
+       info.setAttribute('id','infoP')
 
        //Respone given by the AJAX Request is different based on the search type
        if (document.getElementById('type').value == 'artist') { //If user is searching for artists
-         img.src = data.artists.items[0].images[1].url; // artist picture
+         img.src = data.artists.items[0].images[0].url; // artist picture
          var link = document.createTextNode("Go To The Artist");
          text.onclick = function(e) {window.open(data.artists.items[0].external_urls.spotify,'_blank')}; //Onclick function for the previous text node that takes the user to the artist page
          text.append(link);
@@ -46,7 +48,7 @@ function search() {
          //MORE ARTIST SHIT
        }
        if(document.getElementById('type').value == 'album') { //If user is searching for albums
-         img.src = data.albums.items[0].images[1].url; //album picture
+         img.src = data.albums.items[0].images[0].url; //album picture
          var link = document.createTextNode("Go To The Album");
          text.onclick = function(e) {window.open(data.albums.items[0].external_urls.spotify,'_blank')};
          text.style.cursor = "pointer";
@@ -65,7 +67,7 @@ function search() {
          //MORE ALBUM SHIT
        }
        if(document.getElementById('type').value == 'track') { //If user is searching for songs
-        img.src = data.tracks.items[0].album.images[1].url; // Album pic via song
+        img.src = data.tracks.items[0].album.images[0].url; // Album pic via song
         var album = document.createTextNode("A Song Within: " + data.tracks.items[0].album.name);
         var release = document.createTextNode("Album's Release Date: " + data.tracks.items[0].album.release_date);//MORE SONG SHIT
         var artist = document.createTextNode("Artist: " + data.tracks.items[0].artists[0].name);

@@ -19,7 +19,7 @@
 <body>
   <div class = "row">
     <div class="col">
-      <h1>Placeholder</h1>
+      <h1>Search Spotify |</h1>
       <p>Search for Artists, Songs and Albums Utilizing Spotify's search API
       <button onclick="grantToken()">Request a Token</button>
     </div>
@@ -27,6 +27,7 @@
       <img src="img/logoH.png" id="headerimg"></img>
     </div>
   </div>
+  <div class="row" id="form">
     <form onsubmit="return false" autocomplete="off">
           <input type="text" placeholder="Search"id="query">
 
@@ -39,6 +40,7 @@
         <label for = "Submit"></label>
           <input id="sbmt" type="submit" value="Submit" onclick="search()">
     </form>
+  </div>
     <div class="row">
       <div class="col" id="picture"></div>
       <div class="col" id="info"></div>

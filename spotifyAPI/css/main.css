@@ -1,3 +1,4 @@
+/* 1175 PXLS IN STARTS TO BREAK */
 body {
   background-color: #191414;
   overflow-x: hidden;
@@ -44,20 +45,35 @@ button {
 }
 
 
-.picture {
-
+img {
+  vertical-align: middle;
+  width: 74%;
+  height: auto;
+  margin-left: 16%;
 }
-.info {
-  border: 1px solid #1DB954;
-  border-radius: 25px;
-  height: 200px;
-}
-.link {
 
+#linkP {
+  margin-left: 5%;
+  font-size: 2em;
 }
 
 #headerimg {
   height: auto;
   width: 20%;
   margin-top: 2%;
+}
+
+#form {
+  display: block !important;
+}
+
+#infoP {
+  border-top: 5px solid
+  #1DB954;
+  border-radius: 25px;
+  width: 79%;
+  margin-left: 7%;
+  font-size: 1.2em;
+  border-bottom: 3px solid  #1DB954;
+  padding: 4%;
 }

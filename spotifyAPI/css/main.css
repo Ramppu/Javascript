@@ -1,4 +1,3 @@
-/* 1175 PXLS IN STARTS TO BREAK */
 body {
   background-color: #191414;
   overflow-x: hidden;
@@ -8,7 +7,7 @@ h1 {
   color: #1DB954;
   margin-left: 1%;
   font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
+  font-size: 4em;
   margin-bottom: 0;
 }
 
@@ -77,3 +76,36 @@ img {
   border-bottom: 3px solid  #1DB954;
   padding: 4%;
 }
+  @media only screen and (max-width: 764px) {
+    #infoP {
+      font-size: 0.75em;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 3em;
+    }
+    img {
+      width: 50%;
+      margin-left: 25%;
+    }
+    #picture {
+      display: block;
+      width: 100%;
+      min-width: 100% !important;
+    }
+    #infoP {
+      display: block;
+      width: 55%;
+      margin-top: 4%;
+      margin-left: 23%;
+      font-size: 1em;
+    }
+    #link {
+      display: block;
+      width: 100%;
+      min-width: 100% !important;
+      font-size: 5vw;
+    }
+  }

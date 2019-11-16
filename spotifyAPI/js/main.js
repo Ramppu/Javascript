@@ -93,6 +93,8 @@ function search() {
    }
  }
 }
+
+
 //ALBUM SONG COUNT = document.getElementById('info').append(data.albums.items[0].total_tracks);
 //ALBUM RELEASE DATE = document.getElementById('info').append(data.albums.items[0].release_date);
 //ALBUM NAME = document.getElementById('info').append(data.albums.items[0].name);

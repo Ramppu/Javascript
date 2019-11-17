@@ -1,9 +1,38 @@
-function grantToken() { // Maybe window.location could be within a clause, which would only be met when user first opens the site
+function initiate() { //When you enter  the site
+  if(sessionStorage.length <= 0) {
+    Swal.fire({
+      title: 'API Search Requires a Spotify Login!',
+      text: "Click the 'Login' button to continue.",
+      icon: 'info',
+      showCancelButton: true,
+      confirmButtonColor: '#1DB954',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Login'
+    }).then((result) => {
+      if (result.value) {
+        sessionStorage.setItem("one","two"); //Session storage is used, so the function doesnt run indefinetly
+        grantToken();
+      }
+    })
+  }
+}
+function success() { //Shows up after confirming the first alert
+  if (sessionStorage.length >= 1) {
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'You may now Search Artists, Albums and Songs !',
+      showConfirmButton: false,
+      timer: 2500,
+      timerProgressBar: true,
+    })
+  }
+}
+function grantToken() {
   window.location.replace("https://accounts.spotify.com/authorize?client_id=c7e183fe68ed459e95e67fde31ce89b8&redirect_uri=https://nostalgic-edison-5f972e.netlify.com&scope=user-read-private%20user-read-email&response_type=token&state=123");
 } //Grants access token so searches can be made
 
 function search() {
-
   var url = document.URL,
   access_token = url.match(/\#(?:access_token)\=([\S\s]*?)\&/)[1]; //Pulls access token out of the url
   var q = document.getElementById('query').value; //The search query from form

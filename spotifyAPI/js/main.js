@@ -51,9 +51,13 @@ function search() {
        var data = JSON.parse(xmlhttp.responseText);
        var img = document.createElement('img'); //Img element for the picture div
        var text = document.createElement('p'); //P element for the 'link' div
+       var frm = document.createElement('iframe');
+       frm.setAttribute('allow','encrypted-media');
+       frm.style.width = "300px";
+       frm.style.height = "380px";
        text.setAttribute('id','linkP') //Creating id for the elements, in order to style them.
        var info = document.createElement('p'); //P element for the 'info' div
-       info.setAttribute('id','infoP')
+       info.setAttribute('id','infoP');
 
        //Respone given by the AJAX Request is different based on the search type
        if (document.getElementById('type').value == 'artist') { //If user is searching for artists
@@ -82,6 +86,7 @@ function search() {
          var release = document.createTextNode("Release Date: " + data.albums.items[0].release_date);
          var album = document.createTextNode("Album: " + data.albums.items[0].name);
          var artist = document.createTextNode("Artist: " + data.albums.items[0].artists[0].name);
+         frm.setAttribute('src', `https://open.spotify.com/embed/album/${data.albums.items[0].id}`);
          info.append(artist);
          info.append(document.createElement('br'));
          info.append(album);
@@ -112,17 +117,40 @@ function search() {
 
       //$("#info").html(info);
       document.getElementById('info').innerHTML = '';
-      document.getElementById('info').append(info)
+      document.getElementById('info').append(info);
 
       //$("#link").html(text);
       document.getElementById('link').innerHTML = '';
       document.getElementById('link').append(text);
+      $("#link").append(frm);
 
       //EMPTYING THE DIV WOULDNT BE NECESSARY IF jQuery usage was allowed, jQuery alternatives in comments above the code
    }
  }
 }
 
+//function call() {
+//  var url = document.URL,
+//  access_token = url.match(/\#(?:access_token)\=([\S\s]*?)\&/)[1]; //Pulls access token out of the url
+//  var q = document.getElementById('query').value; //The search query from form
+//  var type = document.getElementById('type').value; //The search type from form
+//  var auth = `Bearer ${access_token}`; //Access token for the AJAX request
+//  var searchUrl = `https://api.spotify.com/v1/search?q=${q}&type=${type}`; //Final search url for the AJAX request, using user inputs
+//  var xmlhttp = new XMLHttpRequest();
+//  xmlhttp.open("GET",searchUrl,true);
+//  xmlhttp.setRequestHeader("Content-Type", "application/json");
+//  xmlhttp.setRequestHeader("Authorization", auth);
+//  xmlhttp.send(); //Completed AJAX request with all the required information
+
+//  xmlhttp.onreadystatechange=function() {
+//    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+//      return true;
+//      console.log('we fine');
+//    }
+//    else {
+//      return false;
+//    }
+//}
 
 //ALBUM SONG COUNT = document.getElementById('info').append(data.albums.items[0].total_tracks);
 //ALBUM RELEASE DATE = document.getElementById('info').append(data.albums.items[0].release_date);

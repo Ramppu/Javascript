@@ -1,0 +1,211 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=Le+grand+voyage&type=album&offset=0&limit=20",
+    "items" : [ {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0J2gE1fVwnMhsh0OxUpUPT"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0J2gE1fVwnMhsh0OxUpUPT",
+        "id" : "0J2gE1fVwnMhsh0OxUpUPT",
+        "name" : "Klone",
+        "type" : "artist",
+        "uri" : "spotify:artist:0J2gE1fVwnMhsh0OxUpUPT"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6vkVCBBaqsTiraWDpIbRZV"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6vkVCBBaqsTiraWDpIbRZV",
+      "id" : "6vkVCBBaqsTiraWDpIbRZV",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b27389bc59b01dd213f522afdf65",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e0289bc59b01dd213f522afdf65",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d0000485189bc59b01dd213f522afdf65",
+        "width" : 64
+      } ],
+      "name" : "Le Grand Voyage",
+      "release_date" : "2019-09-20",
+      "release_date_precision" : "day",
+      "total_tracks" : 9,
+      "type" : "album",
+      "uri" : "spotify:album:6vkVCBBaqsTiraWDpIbRZV"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7FhgU6QiOb0lKMlRZYXuVx"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7FhgU6QiOb0lKMlRZYXuVx",
+        "id" : "7FhgU6QiOb0lKMlRZYXuVx",
+        "name" : "Marienko",
+        "type" : "artist",
+        "uri" : "spotify:artist:7FhgU6QiOb0lKMlRZYXuVx"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/12vg4SAKLyyCO27fGWUPEo"
+      },
+      "href" : "https://api.spotify.com/v1/albums/12vg4SAKLyyCO27fGWUPEo",
+      "id" : "12vg4SAKLyyCO27fGWUPEo",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2736067e05369a1377d340b47ba",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e026067e05369a1377d340b47ba",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048516067e05369a1377d340b47ba",
+        "width" : 64
+      } ],
+      "name" : "Le Grand Voyage",
+      "release_date" : "2009-07-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 14,
+      "type" : "album",
+      "uri" : "spotify:album:12vg4SAKLyyCO27fGWUPEo"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2LShm0JkaAKSVFUQfAnJmp"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2LShm0JkaAKSVFUQfAnJmp",
+        "id" : "2LShm0JkaAKSVFUQfAnJmp",
+        "name" : "Florent Adroit",
+        "type" : "artist",
+        "uri" : "spotify:artist:2LShm0JkaAKSVFUQfAnJmp"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2FFs3N6jIUV20R8WHmKhEX"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2FFs3N6jIUV20R8WHmKhEX",
+      "id" : "2FFs3N6jIUV20R8WHmKhEX",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2731f41369131d02b288474e393",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e021f41369131d02b288474e393",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048511f41369131d02b288474e393",
+        "width" : 64
+      } ],
+      "name" : "Le grand voyage",
+      "release_date" : "2012-05-10",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:2FFs3N6jIUV20R8WHmKhEX"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1twAeHi6OPansyLNRCJPnS"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1twAeHi6OPansyLNRCJPnS",
+        "id" : "1twAeHi6OPansyLNRCJPnS",
+        "name" : "Jonathan Sulyvan",
+        "type" : "artist",
+        "uri" : "spotify:artist:1twAeHi6OPansyLNRCJPnS"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2TjQEzhXRqfH7txS4TbcTJ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2TjQEzhXRqfH7txS4TbcTJ",
+      "id" : "2TjQEzhXRqfH7txS4TbcTJ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2733c2f1e9ebfc0f4ec7064f5e3",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e023c2f1e9ebfc0f4ec7064f5e3",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048513c2f1e9ebfc0f4ec7064f5e3",
+        "width" : 64
+      } ],
+      "name" : "Le grand voyage",
+      "release_date" : "2012-10-31",
+      "release_date_precision" : "day",
+      "total_tracks" : 3,
+      "type" : "album",
+      "uri" : "spotify:album:2TjQEzhXRqfH7txS4TbcTJ"
+    }, {
+      "album_type" : "single",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1twAeHi6OPansyLNRCJPnS"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1twAeHi6OPansyLNRCJPnS",
+        "id" : "1twAeHi6OPansyLNRCJPnS",
+        "name" : "Jonathan Sulyvan",
+        "type" : "artist",
+        "uri" : "spotify:artist:1twAeHi6OPansyLNRCJPnS"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3RCVWnGfy5TPDQFScz6AKw"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3RCVWnGfy5TPDQFScz6AKw",
+      "id" : "3RCVWnGfy5TPDQFScz6AKw",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b2732722fb90d4ee4fa4cdf18de7",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e022722fb90d4ee4fa4cdf18de7",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d000048512722fb90d4ee4fa4cdf18de7",
+        "width" : 64
+      } ],
+      "name" : "Le grand voyage",
+      "release_date" : "2012-09-02",
+      "release_date_precision" : "day",
+      "total_tracks" : 1,
+      "type" : "album",
+      "uri" : "spotify:album:3RCVWnGfy5TPDQFScz6AKw"
+    }, {
+      "album_type" : "album",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4qCa15E8NiHRdn0O0uKDjK"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4qCa15E8NiHRdn0O0uKDjK",
+        "id" : "4qCa15E8NiHRdn0O0uKDjK",
+        "name" : "Michel Drucker Expérience",
+        "type" : "artist",
+        "uri" : "spotify:artist:4qCa15E8NiHRdn0O0uKDjK"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5OIGbIofNJNTZhmNl6oxuw"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5OIGbIofNJNTZhmNl6oxuw",
+      "id" : "5OIGbIofNJNTZhmNl6oxuw",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273a6fef4b903d9a40df9bab1ed",
+        "width" : 640
+      }, {
